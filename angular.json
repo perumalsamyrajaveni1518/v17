@@ -72,7 +72,8 @@
               "buildTarget": "v17:build:production"
             },
             "development": {
-              "buildTarget": "v17:build:development"
+              "buildTarget": "v17:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
